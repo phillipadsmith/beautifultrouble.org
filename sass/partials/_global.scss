@@ -1,0 +1,114 @@
+@import "compass/css3";
+@import "compass/utilities";
+@import "compass/utilities/general/clearfix";
+
+// Global style definitions
+$border-color: #ccc;
+$border-size:  1px;
+$border-style: solid;
+$link-color:   #000000;
+$white: rgb(255,255,255);
+
+a:link, a:visited {
+    color: $link-color;
+    text-decoration: none;
+    border-bottom: 1px dotted rgb(200,200,200);
+}
+a:hover {
+    border-bottom: 1px solid black;
+}
+
+a:link.img, a:visited.img { border: none; }
+
+nav {
+    border-bottom: 1px solid white;
+    top: 0;
+    height: 30px;
+    background: black;
+    width: 100%;
+}
+nav ul li {
+    display: inline;
+    color: white;
+    margin-right: 20px;
+    text-transform: uppercase;
+    @include small;
+}
+nav ul li a:link, nav ul li a:visited { 
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+body { 
+}
+
+header hgroup {
+    text-indent: -5000px;
+    //background: url('../ui/img/h/beautiful_trouble.png') no-repeat left top;
+}
+#project-summary { max-width: 900px; }
+
+#box {
+    background: red;
+    @include border-radius(25px); }
+
+#partners img {
+    padding: 4px;
+    margin: 0 20px 20px 0;
+    border: $border-color $border-size $border-style;
+    @include box-shadow($border-color 1px 1px 1px);
+    &:hover { 
+      @include box-shadow( adjust-lightness( $border-color, -10% ) 3px 3px 4px); }
+}    
+
+#partners a { text-decoration: none; }
+
+#video-highlight  { 
+    float: left;
+    margin-right: 20px;
+}
+#video-highlight img {
+}
+
+#latest-updates img {
+ padding: 4px;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    border: $border-color $border-size $border-style;
+    @include box-shadow($border-color 1px 1px 1px);
+}
+
+div.meta { margin-bottom: 1.3em; }
+
+img.book {
+    padding: 4px;
+    margin: 0 20px 20px 0;
+}
+
+#contributors ul {
+    @include inline-list;
+    @include delimited-list(', ');
+    li { 
+      &:last-child {
+      &:before {
+        content: " and "; } } }
+}
+
+article { margin: 1em 0 1em 0; }
+
+#latest-updates article h4 { @include large; }
+
+footer {
+    background: rgb(34, 31, 31);
+    color: rgb(255,255,255);
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+footer a:link, footer a:visited {
+    color: rgb(255,255,255)
+}
+.highlight { background: rgb(252, 252, 174); }
+.highslide-maincontent { padding-bottom: 15px; }

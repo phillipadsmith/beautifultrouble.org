@@ -1,0 +1,120 @@
+$layout: 8;
+
+/**
+ **  Eight-column grid active
+ **  ----------------------------------------------------------------------
+ **  Margin   | #  1     2     3     4     5     6     7     8   |   Margin
+ **  5.55555% | %  12.5  25.0  37.5  50.0  62.5  75.0  87.5  100 | 5.55555%
+ */
+
+/* @media screen and (min-width: 720px) */
+@media screen and (min-width: 45em) {
+  body {
+    /* Reset baseline grid to 16/16 = 1 */
+    font-size: #{$font-size / $em}em;
+    background: none;
+}
+
+header hgroup {
+    background: url('../ui/img/m/beautiful_trouble.png') no-repeat left top;
+    height: 100px;
+    /* margin: 70px 0 20px 0; */
+}
+
+    #callstoaction .wrapper {
+        @include column(4, left);
+        @include wrapper; 
+    } 
+    
+    #slideshow {
+        @include wrapper;
+        width: 420px;
+        float: left;
+        margin: 0 0 0 5.556%;
+    }
+
+    #callstoaction div.book {
+        background: url('../ui/img/m/Beautiful_Trouble_Book_Cover.png') no-repeat left top;
+        position: relative;
+        left: -26px;
+        padding: 0 0 0 135px;
+    }
+
+
+  #latest-updates article img { 
+    float: left;
+    margin: 0 1em 1em 0 }
+}
+
+/* @media screen and (min-width: 888px) */
+/* iPad in horizontal orientation */
+@media screen and (min-width: 55.5em) {
+  body {
+    /* Zoom baseline grid to 17/16 = 1.0625 */
+    font-size: #{($font-size + 1) / $em}em; } 
+
+    header hgroup {
+        background: url('../ui/img/h/beautiful_trouble.png') no-repeat left top;
+        height: 102px;
+        margin: 70px 0 20px 0;
+    }
+    #slideshow { 
+        @include wrapper;
+        width: 528px;
+        float: left;
+        margin: 0 0 0 5.556%;
+    }
+   nav { position: fixed; display: block; z-index: 1; }
+   nav ul { 
+          @include outer(1) }
+}
+
+/* @media screen and (min-width: 984px) */
+@media screen and (min-width: 61.5em) {
+  body {
+    /* Reset baseline grid to 16/16 = 1.0 */
+    font-size: #{$font-size / $em}em; }
+}
+
+/* @media screen and (min-width: 1200px) */
+/* This is basically the starting point for laptop screens of reasonable sizes */
+@media screen and (min-width: 75em) {
+  body {
+    /* Zoom baseline grid to 17/16 = 1.0625 */
+    font-size: #{($font-size + 1) / $em}em; 
+    background: url('../ui/img/h/hammerphone.png') fixed no-repeat -30px 60px;
+    } 
+  header, #callstoaction, #project-summary, #latest-updates, #team, #contributors, #partners, #supporters, #faqs, footer div {
+    @include outer(3); 
+    } 
+
+  #slideshow { 
+      width: 528px;
+      float: left;
+      margin: 0 0 0 16.667%;
+  }
+
+   nav { position: fixed; display: block; z-index: 1; }
+   nav ul { 
+          @include outer(3) }
+
+    #callstoaction div.book {
+        background: url('../ui/img/h/Beautiful_Trouble_Book_Cover.png') no-repeat left top;
+        padding: 10px 0 50px 210px;
+    }
+
+}
+
+/* @media screen and (min-width: 1392px) */
+@media screen and (min-width: 87em) {
+  body {
+    /* Reset baseline grid to 16/16 = 1.0 */
+    font-size: #{$font-size / $em}em; }
+}
+
+/* @media screen and (min-width: 1680px) */
+@media screen and (min-width: 105em) {
+  body {
+    /* Zoom baseline grid to 17/16 = 1.0625 */
+    font-size: #{($font-size + 1) / $em}em; }
+}

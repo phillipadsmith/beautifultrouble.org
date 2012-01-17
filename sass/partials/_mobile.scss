@@ -1,0 +1,103 @@
+$layout: 4;
+
+/**
+ **  Four-column grid active
+ **  ----------------------------------------
+ **  Margin   | #  1   2   3   4   |   Margin
+ **  5.55555% | %  25  50  75  100 | 5.55555%
+ */
+
+
+h1, h2 {
+  margin: 24 / 26 * 1em 0 36 / 26 * 1em; }
+
+h2 {
+  font-weight: normal; }
+
+h3 {
+  margin: #{24 / $em}em 0 #{24 / $em}em; }
+
+
+/**
+ **  Fixes for IE6-8
+ **  http://jonikorpi.com/leaving-old-IE-behind/
+ */
+
+.ie body {
+  width: #{640 / $em}em;
+  margin: 0 auto;
+  font-size: #{($font-size + 1) / $em}em; }
+
+.ie h1 {
+  @include huge;
+  margin: 48 / 42 * 1em 0 24 / 42 * 1em; }
+
+/* BT Styles */
+
+header hgroup {
+    background: url('../ui/img/s/beautiful_trouble.png') no-repeat left top;
+    height: 53px;
+    margin-bottom: 10px;
+}
+header hgroup h2 {
+    display: none;
+}
+    
+.wrapper {
+  @include wrapper; }
+
+header,
+#callstoaction {
+  @include outer(1);
+  }
+
+#project-summary, #latest-updates, #team, #contributors, #partners, #supporters, #faqs, footer div {
+    @include wrapper;
+    @include outer(1);
+    @include clearfix;
+}
+
+#team ul li { 
+    border-bottom: 1px dotted rgb(200,200,200);
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+}
+
+
+#team ul li img {
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+#project-summary p { margin-top: 10px; }
+
+nav { display: none; }
+
+#callstoaction div.book {
+    background: url('../ui/img/h/Beautiful_Trouble_Book_Cover.png') no-repeat left top;
+    padding: 250px 0 0 0;
+}
+
+
+#partners ul, #partners ul li.partner {
+    @include inline-list
+}
+
+/* @media screen and (min-width: 640px) */
+@media screen and (min-width: 40em) {
+  body {
+    /* Zoom baseline grid to 17/16 = 1.0625 */
+    font-size: #{($font-size + 1) / $em}em; 
+    }
+  h1 {
+    margin: 48 / 42 * 1em 0 24 / 42 * 1em; 
+    } 
+
+    #team ul li {
+        width: 45%;
+        float: left;
+        margin-right: 2%;
+        height: 70px;
+    }
+
+}
