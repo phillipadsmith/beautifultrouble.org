@@ -24,7 +24,6 @@
             <script src="javascripts/jquery.slideto.v1.1.js"></script>
             <script src="javascripts/highslide-full.packed.js"></script>
             <script src="javascripts/responsiveslides.min.js"></script>
-            <script src="javascripts/respond.min.js"></script>
             <link rel="stylesheet" type="text/css" href="stylesheets/highslide.css" />
 
             <script>
@@ -82,6 +81,7 @@
                         });
                     });
                 </script>
+                <script src="javascripts/modernizr.js"></script>
             </head>
 
             <body lang="en">
