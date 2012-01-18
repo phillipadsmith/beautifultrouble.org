@@ -39,6 +39,12 @@ header hgroup {
     height: 53px;
     margin-bottom: 10px;
 }
+
+html.ie header hgroup {
+    background: url("../ui/img/s/beautiful_trouble.png");
+    margin-top: 20px;
+}
+
 header hgroup h2 {
     display: none;
 }

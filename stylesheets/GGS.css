@@ -417,12 +417,6 @@ footer a:link, footer a:visited {
   padding-bottom: 15px;
 }
 
-/* line 116, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_global.scss */
-html.ie header hgroup {
-  background: url("../ui/img/s/beautiful_trouble.png");
-  margin-top: 20px;
-}
-
 /**
  **  Four-column grid active
  **  ----------------------------------------
@@ -470,12 +464,18 @@ header hgroup {
   margin-bottom: 10px;
 }
 
-/* line 42, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+/* line 43, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+html.ie header hgroup {
+  background: url("../ui/img/s/beautiful_trouble.png");
+  margin-top: 20px;
+}
+
+/* line 48, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
 header hgroup h2 {
   display: none;
 }
 
-/* line 46, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+/* line 52, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
 .wrapper {
   padding: 0 0.75em;
   -webkit-box-sizing: border-box;
@@ -484,13 +484,13 @@ header hgroup h2 {
   box-sizing: border-box;
 }
 
-/* line 50, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+/* line 56, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
 header,
 #callstoaction {
   margin: 0 5.556%;
 }
 
-/* line 54, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+/* line 60, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
 #project-summary, #latest-updates, #team, #contributors, #partners, #supporters, #faqs, footer div {
   padding: 0 0.75em;
   -webkit-box-sizing: border-box;
@@ -502,36 +502,36 @@ header,
   *zoom: 1;
 }
 
-/* line 60, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+/* line 66, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
 #team ul li {
   border-bottom: 1px dotted #c8c8c8;
   margin-bottom: 14px;
   padding-bottom: 10px;
 }
 
-/* line 67, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+/* line 73, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
 #team ul li img {
   float: left;
   padding: 0 10px 10px 0;
 }
 
-/* line 72, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+/* line 78, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
 #project-summary p {
   margin-top: 10px;
 }
 
-/* line 74, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+/* line 80, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
 nav {
   display: none;
 }
 
-/* line 76, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+/* line 82, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
 #callstoaction div.book {
   background: url("../ui/img/h/Beautiful_Trouble_Book_Cover.png") no-repeat left top;
   padding: 250px 0 0 0;
 }
 
-/* line 82, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+/* line 88, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
 #partners ul, #partners ul li.partner {
   list-style-type: none;
 }
@@ -544,18 +544,18 @@ nav {
 
 /* @media screen and (min-width: 640px) */
 @media screen and (min-width: 40em) {
-  /* line 88, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+  /* line 94, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
   body {
     /* Zoom baseline grid to 17/16 = 1.0625 */
     font-size: 1.063em;
   }
 
-  /* line 92, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+  /* line 98, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
   h1 {
     margin: 1.143em 0 0.571em;
   }
 
-  /* line 96, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+  /* line 102, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
   #team ul li {
     width: 45%;
     float: left;
