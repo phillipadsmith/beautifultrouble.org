@@ -78,7 +78,7 @@
                             speed: 4000, //Integer: How long one image shows before fading to next, in milliseconds
                             fade: 1000, //Integer: Crossfade, in milliseconds
                             auto: true, //Boolean: Animate automatically? if 'false', pagination is created automatically
-                            maxwidth: 900, //Integer: Max-width of the Slideshow + images, in pixels 
+                            maxwidth: 900 //Integer: Max-width of the Slideshow + images, in pixels 
                         });
                     });
                 </script>
