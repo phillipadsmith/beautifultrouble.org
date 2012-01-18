@@ -7,7 +7,7 @@
  **  Margin, padding, and border resets
  **  except for form elements
  */
-/* line 8, /Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
+/* line 8, ../../../../../Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, a, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, nav, section, menu, time, mark, audio, video, canvas {
   margin: 0;
   padding: 0;
@@ -18,26 +18,26 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, a, blockquote,
  **  Consistency fixes
  **  adopted from http://necolas.github.com/normalize.css/
  */
-/* line 21, /Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
+/* line 21, ../../../../../Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
 html {
   height: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
-/* line 26, /Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
+/* line 26, ../../../../../Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
 body {
   min-height: 100%;
   font-size: 100%;
 }
 
-/* line 30, /Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
+/* line 30, ../../../../../Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, nav, section, audio, canvas, video {
   display: block;
 }
 
-/* line 34, /Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
+/* line 34, ../../../../../Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
 sub, sup {
   font-size: 75%;
   line-height: 0;
@@ -45,39 +45,39 @@ sub, sup {
   vertical-align: baseline;
 }
 
-/* line 40, /Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
+/* line 40, ../../../../../Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
 li {
   list-style-type: none;
 }
 
-/* line 43, /Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
+/* line 43, ../../../../../Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
 sup {
   top: -0.5em;
 }
 
-/* line 46, /Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
+/* line 46, ../../../../../Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
 sub {
   bottom: -0.25em;
 }
 
-/* line 49, /Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
+/* line 49, ../../../../../Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
 
-/* line 54, /Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
+/* line 54, ../../../../../Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
 b, strong {
   font-weight: bold;
 }
 
-/* line 57, /Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
+/* line 57, ../../../../../Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 60, /Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
 input, textarea, button, select {
   margin: 0;
   font-size: 100%;
@@ -85,7 +85,7 @@ input, textarea, button, select {
   vertical-align: baseline;
 }
 
-/* line 66, /Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
+/* line 66, ../../../../../Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -94,7 +94,7 @@ input[type="submit"] {
   -webkit-appearance: button;
 }
 
-/* line 73, /Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
+/* line 73, ../../../../../Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
 input[type="checkbox"],
 input[type="radio"] {
   -webkit-box-sizing: border-box;
@@ -104,12 +104,12 @@ input[type="radio"] {
   box-sizing: border-box;
 }
 
-/* line 81, /Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
+/* line 81, ../../../../../Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
 textarea {
   overflow: auto;
 }
 
-/* line 84, /Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
+/* line 84, ../../../../../Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -118,18 +118,18 @@ table {
 /**
  **  Simple fluid media
  */
-/* line 94, /Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
+/* line 94, ../../../../../Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
 figure {
   position: relative;
 }
 
-/* line 97, /Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
+/* line 97, ../../../../../Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
 figure img, figure object, figure embed, figure video {
   max-width: 100%;
   display: block;
 }
 
-/* line 101, /Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
+/* line 101, ../../../../../Library/Ruby/Gems/1.8/gems/compass-golden-grid-system-0.1/stylesheets/ggs/_normalize.sass */
 img {
   border: 0;
   -ms-interpolation-mode: bicubic;
@@ -147,7 +147,7 @@ img {
   font-style: normal;
 }
 
-/* line 18, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_type.scss */
+/* line 18, ../sass/partials/_type.scss */
 body {
   /* 16px / 24px */
   font-size: 1em;
@@ -155,41 +155,41 @@ body {
   font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
 
-/* line 23, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_type.scss */
+/* line 23, ../sass/partials/_type.scss */
 .small {
   /* 13px / 18px */
   font-size: 0.813em;
   line-height: 1.384em;
 }
 
-/* line 27, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_type.scss */
+/* line 27, ../sass/partials/_type.scss */
 h3 {
   font-family: BostonTrafficRegular;
 }
 
-/* line 31, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_type.scss */
+/* line 31, ../sass/partials/_type.scss */
 h4, h5 {
   font-family: BostonTrafficRegular;
 }
 
-/* line 35, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_type.scss */
+/* line 35, ../sass/partials/_type.scss */
 #callstoaction h3 {
   margin: 1.2em 0;
 }
 
-/* line 38, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_type.scss */
+/* line 38, ../sass/partials/_type.scss */
 #latest-updates article h4 {
   margin-bottom: 20px;
 }
 
-/* line 42, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_type.scss */
+/* line 42, ../sass/partials/_type.scss */
 .normal {
   /* 16px / 24px */
   font-size: 1em;
   line-height: 1.5em;
 }
 
-/* line 48, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_type.scss */
+/* line 48, ../sass/partials/_type.scss */
 h1,
 h2,
 .large {
@@ -198,28 +198,28 @@ h2,
   line-height: 1.385em;
 }
 
-/* line 52, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_type.scss */
+/* line 52, ../sass/partials/_type.scss */
 .huge {
   /* 42px / 48px */
   font-size: 2.625em;
   line-height: 1.143em;
 }
 
-/* line 56, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_type.scss */
+/* line 56, ../sass/partials/_type.scss */
 .massive {
   /* 68px / 72px */
   font-size: 4.25em;
   line-height: 1.059em;
 }
 
-/* line 60, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_type.scss */
+/* line 60, ../sass/partials/_type.scss */
 .gigantic {
   /* 110px / 120px */
   font-size: 6.875em;
   line-height: 1.091em;
 }
 
-/* line 64, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_type.scss */
+/* line 64, ../sass/partials/_type.scss */
 nav {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   padding: 0 0.75em;
@@ -229,24 +229,24 @@ nav {
   box-sizing: border-box;
 }
 
-/* line 12, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_global.scss */
+/* line 12, ../sass/partials/_global.scss */
 a:link, a:visited {
   color: black;
   text-decoration: none;
   border-bottom: 1px dotted #c8c8c8;
 }
 
-/* line 17, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_global.scss */
+/* line 17, ../sass/partials/_global.scss */
 a:hover {
   border-bottom: 1px solid black;
 }
 
-/* line 21, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_global.scss */
+/* line 21, ../sass/partials/_global.scss */
 a:link.img, a:visited.img {
   border: none;
 }
 
-/* line 23, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_global.scss */
+/* line 23, ../sass/partials/_global.scss */
 nav {
   border-bottom: 1px solid white;
   top: 0;
@@ -255,7 +255,7 @@ nav {
   width: 100%;
 }
 
-/* line 30, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_global.scss */
+/* line 30, ../sass/partials/_global.scss */
 nav ul li {
   display: inline;
   color: white;
@@ -265,28 +265,28 @@ nav ul li {
   line-height: 1.384em;
 }
 
-/* line 37, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_global.scss */
+/* line 37, ../sass/partials/_global.scss */
 nav ul li a:link, nav ul li a:visited {
   color: white;
   text-decoration: none;
 }
 
-/* line 41, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_global.scss */
+/* line 41, ../sass/partials/_global.scss */
 nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* line 48, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_global.scss */
+/* line 48, ../sass/partials/_global.scss */
 header hgroup {
   text-indent: -5000px;
 }
 
-/* line 52, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_global.scss */
+/* line 52, ../sass/partials/_global.scss */
 #project-summary {
   max-width: 900px;
 }
 
-/* line 54, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_global.scss */
+/* line 54, ../sass/partials/_global.scss */
 #box {
   background: red;
   -moz-border-radius: 25px;
@@ -297,7 +297,7 @@ header hgroup {
   border-radius: 25px;
 }
 
-/* line 58, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_global.scss */
+/* line 58, ../sass/partials/_global.scss */
 #partners img {
   padding: 4px;
   margin: 0 20px 20px 0;
@@ -307,7 +307,7 @@ header hgroup {
   -o-box-shadow: #cccccc 1px 1px 1px;
   box-shadow: #cccccc 1px 1px 1px;
 }
-/* line 63, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_global.scss */
+/* line 63, ../sass/partials/_global.scss */
 #partners img:hover {
   -moz-box-shadow: #b3b3b3 3px 3px 4px;
   -webkit-box-shadow: #b3b3b3 3px 3px 4px;
@@ -315,18 +315,18 @@ header hgroup {
   box-shadow: #b3b3b3 3px 3px 4px;
 }
 
-/* line 67, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_global.scss */
+/* line 67, ../sass/partials/_global.scss */
 #partners a {
   text-decoration: none;
 }
 
-/* line 69, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_global.scss */
+/* line 69, ../sass/partials/_global.scss */
 #video-highlight {
   float: left;
   margin-right: 20px;
 }
 
-/* line 76, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_global.scss */
+/* line 76, ../sass/partials/_global.scss */
 #latest-updates img {
   padding: 4px;
   margin-right: 1em;
@@ -338,63 +338,63 @@ header hgroup {
   box-shadow: #cccccc 1px 1px 1px;
 }
 
-/* line 84, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_global.scss */
+/* line 84, ../sass/partials/_global.scss */
 div.meta {
   margin-bottom: 1.3em;
 }
 
-/* line 86, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_global.scss */
+/* line 86, ../sass/partials/_global.scss */
 img.book {
   padding: 4px;
   margin: 0 20px 20px 0;
 }
 
-/* line 91, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_global.scss */
+/* line 91, ../sass/partials/_global.scss */
 #contributors ul {
   list-style-type: none;
   list-style-type: none;
 }
-/* line 5, /Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
+/* line 5, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
 #contributors ul, #contributors ul li {
   margin: 0px;
   padding: 0px;
   display: inline;
 }
-/* line 5, /Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
+/* line 5, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
 #contributors ul, #contributors ul li {
   margin: 0px;
   padding: 0px;
   display: inline;
 }
-/* line 29, /Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
+/* line 29, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
 #contributors ul li:after {
   content: ", ";
 }
-/* line 31, /Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
+/* line 31, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
 #contributors ul li:last-child:after {
   content: "";
 }
-/* line 34, /Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
+/* line 34, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
 #contributors ul li.last:after {
   content: "";
 }
-/* line 96, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_global.scss */
+/* line 96, ../sass/partials/_global.scss */
 #contributors ul li:last-child:before {
   content: " and ";
 }
 
-/* line 100, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_global.scss */
+/* line 100, ../sass/partials/_global.scss */
 article {
   margin: 1em 0 1em 0;
 }
 
-/* line 102, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_global.scss */
+/* line 102, ../sass/partials/_global.scss */
 #latest-updates article h4 {
   font-size: 1.625em;
   line-height: 1.385em;
 }
 
-/* line 104, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_global.scss */
+/* line 104, ../sass/partials/_global.scss */
 footer {
   background: #221f1f;
   color: white;
@@ -402,17 +402,17 @@ footer {
   padding-bottom: 1em;
 }
 
-/* line 110, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_global.scss */
+/* line 110, ../sass/partials/_global.scss */
 footer a:link, footer a:visited {
   color: white;
 }
 
-/* line 113, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_global.scss */
+/* line 113, ../sass/partials/_global.scss */
 .highlight {
   background: #fcfcae;
 }
 
-/* line 114, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_global.scss */
+/* line 114, ../sass/partials/_global.scss */
 .highslide-maincontent {
   padding-bottom: 15px;
 }
@@ -423,17 +423,17 @@ footer a:link, footer a:visited {
  **  Margin   | #  1   2   3   4   |   Margin
  **  5.55555% | %  25  50  75  100 | 5.55555%
  */
-/* line 11, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+/* line 11, ../sass/partials/_mobile.scss */
 h1, h2 {
   margin: 0.923em 0 1.385em;
 }
 
-/* line 14, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+/* line 14, ../sass/partials/_mobile.scss */
 h2 {
   font-weight: normal;
 }
 
-/* line 17, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+/* line 17, ../sass/partials/_mobile.scss */
 h3 {
   margin: 1.5em 0 1.5em;
 }
@@ -442,14 +442,14 @@ h3 {
  **  Fixes for IE6-8
  **  http://jonikorpi.com/leaving-old-IE-behind/
  */
-/* line 26, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+/* line 26, ../sass/partials/_mobile.scss */
 .ie body {
   width: 40em;
   margin: 0 auto;
   font-size: 1.063em;
 }
 
-/* line 31, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+/* line 31, ../sass/partials/_mobile.scss */
 .ie h1 {
   font-size: 2.625em;
   line-height: 1.143em;
@@ -457,25 +457,25 @@ h3 {
 }
 
 /* BT Styles */
-/* line 37, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+/* line 37, ../sass/partials/_mobile.scss */
 header hgroup {
   background: url("../ui/img/s/beautiful_trouble.png") no-repeat left top;
   height: 53px;
   margin-bottom: 10px;
 }
 
-/* line 43, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+/* line 43, ../sass/partials/_mobile.scss */
 html.ie header hgroup {
-  background: url("../ui/img/s/beautiful_trouble.gif") no-repeat left top;
+  background: url("../ui/img/h/beautiful_trouble.gif") no-repeat left top;
   margin-top: 20px;
 }
 
-/* line 48, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+/* line 48, ../sass/partials/_mobile.scss */
 header hgroup h2 {
   display: none;
 }
 
-/* line 52, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+/* line 52, ../sass/partials/_mobile.scss */
 .wrapper {
   padding: 0 0.75em;
   -webkit-box-sizing: border-box;
@@ -484,13 +484,13 @@ header hgroup h2 {
   box-sizing: border-box;
 }
 
-/* line 56, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+/* line 56, ../sass/partials/_mobile.scss */
 header,
 #callstoaction {
   margin: 0 5.556%;
 }
 
-/* line 60, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+/* line 60, ../sass/partials/_mobile.scss */
 #project-summary, #latest-updates, #team, #contributors, #partners, #supporters, #faqs, footer div {
   padding: 0 0.75em;
   -webkit-box-sizing: border-box;
@@ -502,40 +502,40 @@ header,
   *zoom: 1;
 }
 
-/* line 66, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+/* line 66, ../sass/partials/_mobile.scss */
 #team ul li {
   border-bottom: 1px dotted #c8c8c8;
   margin-bottom: 14px;
   padding-bottom: 10px;
 }
 
-/* line 73, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+/* line 73, ../sass/partials/_mobile.scss */
 #team ul li img {
   float: left;
   padding: 0 10px 10px 0;
 }
 
-/* line 78, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+/* line 78, ../sass/partials/_mobile.scss */
 #project-summary p {
   margin-top: 10px;
 }
 
-/* line 80, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+/* line 80, ../sass/partials/_mobile.scss */
 nav {
   display: none;
 }
 
-/* line 82, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+/* line 82, ../sass/partials/_mobile.scss */
 #callstoaction div.book {
   background: url("../ui/img/h/Beautiful_Trouble_Book_Cover.png") no-repeat left top;
   padding: 250px 0 0 0;
 }
 
-/* line 88, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+/* line 88, ../sass/partials/_mobile.scss */
 #partners ul, #partners ul li.partner {
   list-style-type: none;
 }
-/* line 5, /Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
+/* line 5, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
 #partners ul, #partners ul li, #partners ul li.partner, #partners ul li.partner li {
   margin: 0px;
   padding: 0px;
@@ -544,18 +544,18 @@ nav {
 
 /* @media screen and (min-width: 640px) */
 @media screen and (min-width: 40em) {
-  /* line 94, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+  /* line 94, ../sass/partials/_mobile.scss */
   body {
     /* Zoom baseline grid to 17/16 = 1.0625 */
     font-size: 1.063em;
   }
 
-  /* line 98, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+  /* line 98, ../sass/partials/_mobile.scss */
   h1 {
     margin: 1.143em 0 0.571em;
   }
 
-  /* line 102, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
+  /* line 102, ../sass/partials/_mobile.scss */
   #team ul li {
     width: 45%;
     float: left;
@@ -571,21 +571,21 @@ nav {
  */
 /* @media screen and (min-width: 720px) */
 @media screen and (min-width: 45em) {
-  /* line 12, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_tablet.scss */
+  /* line 12, ../sass/partials/_tablet.scss */
   body {
     /* Reset baseline grid to 16/16 = 1 */
     font-size: 1em;
     background: none;
   }
 
-  /* line 18, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_tablet.scss */
+  /* line 18, ../sass/partials/_tablet.scss */
   header hgroup {
     background: url("../ui/img/m/beautiful_trouble.png") no-repeat left top;
     height: 100px;
     /* margin: 70px 0 20px 0; */
   }
 
-  /* line 24, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_tablet.scss */
+  /* line 24, ../sass/partials/_tablet.scss */
   #callstoaction .wrapper {
     width: 50%;
     float: left;
@@ -596,7 +596,7 @@ nav {
     box-sizing: border-box;
   }
 
-  /* line 29, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_tablet.scss */
+  /* line 29, ../sass/partials/_tablet.scss */
   #slideshow {
     padding: 0 0.75em;
     -webkit-box-sizing: border-box;
@@ -608,7 +608,7 @@ nav {
     margin: 0 0 0 5.556%;
   }
 
-  /* line 36, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_tablet.scss */
+  /* line 36, ../sass/partials/_tablet.scss */
   #callstoaction div.book {
     background: url("../ui/img/m/Beautiful_Trouble_Book_Cover.png") no-repeat left top;
     position: relative;
@@ -616,7 +616,7 @@ nav {
     padding: 0 0 0 135px;
   }
 
-  /* line 44, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_tablet.scss */
+  /* line 44, ../sass/partials/_tablet.scss */
   #latest-updates article img {
     float: left;
     margin: 0 1em 1em 0;
@@ -625,20 +625,20 @@ nav {
 /* @media screen and (min-width: 888px) */
 /* iPad in horizontal orientation */
 @media screen and (min-width: 55.5em) {
-  /* line 52, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_tablet.scss */
+  /* line 52, ../sass/partials/_tablet.scss */
   body {
     /* Zoom baseline grid to 17/16 = 1.0625 */
     font-size: 1.063em;
   }
 
-  /* line 56, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_tablet.scss */
+  /* line 56, ../sass/partials/_tablet.scss */
   header hgroup {
     background: url("../ui/img/h/beautiful_trouble.png") no-repeat left top;
     height: 102px;
     margin: 70px 0 20px 0;
   }
 
-  /* line 61, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_tablet.scss */
+  /* line 61, ../sass/partials/_tablet.scss */
   #slideshow {
     padding: 0 0.75em;
     -webkit-box-sizing: border-box;
@@ -650,21 +650,21 @@ nav {
     margin: 0 0 0 5.556%;
   }
 
-  /* line 67, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_tablet.scss */
+  /* line 67, ../sass/partials/_tablet.scss */
   nav {
     position: fixed;
     display: block;
     z-index: 1;
   }
 
-  /* line 68, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_tablet.scss */
+  /* line 68, ../sass/partials/_tablet.scss */
   nav ul {
     margin: 0 5.556%;
   }
 }
 /* @media screen and (min-width: 984px) */
 @media screen and (min-width: 61.5em) {
-  /* line 74, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_tablet.scss */
+  /* line 74, ../sass/partials/_tablet.scss */
   body {
     /* Reset baseline grid to 16/16 = 1.0 */
     font-size: 1em;
@@ -673,38 +673,38 @@ nav {
 /* @media screen and (min-width: 1200px) */
 /* This is basically the starting point for laptop screens of reasonable sizes */
 @media screen and (min-width: 75em) {
-  /* line 82, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_tablet.scss */
+  /* line 82, ../sass/partials/_tablet.scss */
   body {
     /* Zoom baseline grid to 17/16 = 1.0625 */
     font-size: 1.063em;
     background: url("../ui/img/h/hammerphone.png") fixed no-repeat -30px 60px;
   }
 
-  /* line 87, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_tablet.scss */
+  /* line 87, ../sass/partials/_tablet.scss */
   header, #callstoaction, #project-summary, #latest-updates, #team, #contributors, #partners, #supporters, #faqs, footer div {
     margin: 0 16.667%;
   }
 
-  /* line 91, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_tablet.scss */
+  /* line 91, ../sass/partials/_tablet.scss */
   #slideshow {
     width: 528px;
     float: left;
     margin: 0 0 0 16.667%;
   }
 
-  /* line 97, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_tablet.scss */
+  /* line 97, ../sass/partials/_tablet.scss */
   nav {
     position: fixed;
     display: block;
     z-index: 1;
   }
 
-  /* line 98, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_tablet.scss */
+  /* line 98, ../sass/partials/_tablet.scss */
   nav ul {
     margin: 0 16.667%;
   }
 
-  /* line 101, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_tablet.scss */
+  /* line 101, ../sass/partials/_tablet.scss */
   #callstoaction div.book {
     background: url("../ui/img/h/Beautiful_Trouble_Book_Cover.png") no-repeat left top;
     padding: 10px 0 50px 210px;
@@ -712,7 +712,7 @@ nav {
 }
 /* @media screen and (min-width: 1392px) */
 @media screen and (min-width: 87em) {
-  /* line 110, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_tablet.scss */
+  /* line 110, ../sass/partials/_tablet.scss */
   body {
     /* Reset baseline grid to 16/16 = 1.0 */
     font-size: 1em;
@@ -720,7 +720,7 @@ nav {
 }
 /* @media screen and (min-width: 1680px) */
 @media screen and (min-width: 105em) {
-  /* line 117, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_tablet.scss */
+  /* line 117, ../sass/partials/_tablet.scss */
   body {
     /* Zoom baseline grid to 17/16 = 1.0625 */
     font-size: 1.063em;
@@ -734,21 +734,21 @@ nav {
  */
 /* @media screen and (min-width: 1872px) */
 @media screen and (min-width: 117em) {
-  /* line 14, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_large.scss */
+  /* line 14, ../sass/partials/_large.scss */
   header hgroup {
     background: url("../ui/img/m/beautiful_trouble.png") no-repeat left top;
     height: 100px;
     margin-bottom: 20px;
   }
 
-  /* line 21, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_large.scss */
+  /* line 21, ../sass/partials/_large.scss */
   #callstoaction div.book {
     padding: 10px 0 50px 240px;
   }
 }
 /* @media screen and (min-width: 2080px) */
 @media screen and (min-width: 130em) {
-  /* line 29, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_large.scss */
+  /* line 29, ../sass/partials/_large.scss */
   body {
     /* Zoom baseline grid to 18/16 = 1.125 */
     font-size: 1.125em;
