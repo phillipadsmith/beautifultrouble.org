@@ -466,7 +466,7 @@ header hgroup {
 
 /* line 43, /Users/phillipadsmith/Development/beautifultrouble.org/sass/partials/_mobile.scss */
 html.ie header hgroup {
-  background: url("../ui/img/s/beautiful_trouble.png");
+  background: url("../ui/img/s/beautiful_trouble.gif") no-repeat left top;
   margin-top: 20px;
 }
 
