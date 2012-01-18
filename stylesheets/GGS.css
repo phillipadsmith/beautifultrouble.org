@@ -468,14 +468,16 @@ header hgroup {
 html.ie header hgroup {
   background: url("../ui/img/h/beautiful_trouble.gif") no-repeat left top;
   margin-top: 20px;
+  height: 102px;
+  width: 500px;
 }
 
-/* line 48, ../sass/partials/_mobile.scss */
+/* line 50, ../sass/partials/_mobile.scss */
 header hgroup h2 {
   display: none;
 }
 
-/* line 52, ../sass/partials/_mobile.scss */
+/* line 54, ../sass/partials/_mobile.scss */
 .wrapper {
   padding: 0 0.75em;
   -webkit-box-sizing: border-box;
@@ -484,13 +486,13 @@ header hgroup h2 {
   box-sizing: border-box;
 }
 
-/* line 56, ../sass/partials/_mobile.scss */
+/* line 58, ../sass/partials/_mobile.scss */
 header,
 #callstoaction {
   margin: 0 5.556%;
 }
 
-/* line 60, ../sass/partials/_mobile.scss */
+/* line 62, ../sass/partials/_mobile.scss */
 #project-summary, #latest-updates, #team, #contributors, #partners, #supporters, #faqs, footer div {
   padding: 0 0.75em;
   -webkit-box-sizing: border-box;
@@ -502,36 +504,36 @@ header,
   *zoom: 1;
 }
 
-/* line 66, ../sass/partials/_mobile.scss */
+/* line 68, ../sass/partials/_mobile.scss */
 #team ul li {
   border-bottom: 1px dotted #c8c8c8;
   margin-bottom: 14px;
   padding-bottom: 10px;
 }
 
-/* line 73, ../sass/partials/_mobile.scss */
+/* line 75, ../sass/partials/_mobile.scss */
 #team ul li img {
   float: left;
   padding: 0 10px 10px 0;
 }
 
-/* line 78, ../sass/partials/_mobile.scss */
+/* line 80, ../sass/partials/_mobile.scss */
 #project-summary p {
   margin-top: 10px;
 }
 
-/* line 80, ../sass/partials/_mobile.scss */
+/* line 82, ../sass/partials/_mobile.scss */
 nav {
   display: none;
 }
 
-/* line 82, ../sass/partials/_mobile.scss */
+/* line 84, ../sass/partials/_mobile.scss */
 #callstoaction div.book {
   background: url("../ui/img/h/Beautiful_Trouble_Book_Cover.png") no-repeat left top;
   padding: 250px 0 0 0;
 }
 
-/* line 88, ../sass/partials/_mobile.scss */
+/* line 90, ../sass/partials/_mobile.scss */
 #partners ul, #partners ul li.partner {
   list-style-type: none;
 }
@@ -544,18 +546,18 @@ nav {
 
 /* @media screen and (min-width: 640px) */
 @media screen and (min-width: 40em) {
-  /* line 94, ../sass/partials/_mobile.scss */
+  /* line 96, ../sass/partials/_mobile.scss */
   body {
     /* Zoom baseline grid to 17/16 = 1.0625 */
     font-size: 1.063em;
   }
 
-  /* line 98, ../sass/partials/_mobile.scss */
+  /* line 100, ../sass/partials/_mobile.scss */
   h1 {
     margin: 1.143em 0 0.571em;
   }
 
-  /* line 102, ../sass/partials/_mobile.scss */
+  /* line 104, ../sass/partials/_mobile.scss */
   #team ul li {
     width: 45%;
     float: left;
