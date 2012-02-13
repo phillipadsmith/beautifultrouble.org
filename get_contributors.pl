@@ -5,7 +5,7 @@
 #
 #        USAGE:  ./contribs.pl
 #
-#  DESCRIPTION: This is a terribly ugly, procedural script that does the job
+#  DESCRIPTION: This is a terribly ugly script that does the job
 #
 #      OPTIONS:  ---
 # REQUIREMENTS:  ---
@@ -34,12 +34,15 @@ my $url
     = 'https://docs.google.com/spreadsheet/pub?key=0AgZzmiG9MvT4dHZRRloyb1ZhT3dmN2RhMHFVZUhZQ3c&single=true&gid=0&output=csv';
 
 my $response = HTTP::Tiny->new->get( $url );
+say Dumper( $response) ;
 my $data;
 my $file;
 
 if ( $response->{'success'} ) {
     $data = $response->{'content'};
 }
+
+say Dumper( $data);
 
 # If we got it, let's save it as a .csv
 # Text::CSV seems to prefer files over strings
