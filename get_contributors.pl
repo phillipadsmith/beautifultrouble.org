@@ -80,17 +80,19 @@ if ( @book_sorted ) {
         my $name = $contrib->{'First name'} . ' ' . $contrib->{'Last name'};
         my $bio  = $contrib->{'Bio'};
         if ( $bio ) {
-        $contrib_str .= <<HTML;
+            $contrib_str .= <<HTML;
 <a href="index.shtml#contributors" onclick="return hs.htmlExpand(this, { headingText: '$name' })">$name</a><div class="highslide-maincontent">$bio</div>, 
 HTML
-    } else {
-        $contrib_str .= "$name, ";
-    }
-    my $l_name = $last->{'First name'} . ' ' . $last->{'Last name'};
-    my $l_bio  = $last->{'Bio'};
-    $contrib_str .= <<LAST;
+        }
+        else {
+            $contrib_str .= "$name, ";
+        }
+        my $l_name = $last->{'First name'} . ' ' . $last->{'Last name'};
+        my $l_bio  = $last->{'Bio'};
+        $contrib_str .= <<LAST;
 and <a href="index.shtml#contributors" onclick="return hs.htmlExpand(this, { headingText: '$l_name' })">$l_name</a><div class="highslide-maincontent">$l_bio</div>.
 LAST
+    }
 }
 
 # Let's output the string into an HTML file for inclusion on the page
