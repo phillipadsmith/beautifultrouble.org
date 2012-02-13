@@ -25,16 +25,15 @@ use Modern::Perl '2012';
 use Carp;
 use Data::Dumper;
 use HTTP::Tiny;
+use IO::Socket::SSL; # Needed for https URLs
 use Text::CSV_XS;
 use IO::All;
-use HTML::Entities;
 
 # Go grab the public spreadsheet of contributors
 my $url
     = 'https://docs.google.com/spreadsheet/pub?key=0AgZzmiG9MvT4dHZRRloyb1ZhT3dmN2RhMHFVZUhZQ3c&single=true&gid=0&output=csv';
 
 my $response = HTTP::Tiny->new->get( $url );
-say Dumper( $response) ;
 my $data;
 my $file;
 
@@ -42,7 +41,6 @@ if ( $response->{'success'} ) {
     $data = $response->{'content'};
 }
 
-say Dumper( $data);
 
 # If we got it, let's save it as a .csv
 # Text::CSV seems to prefer files over strings
@@ -92,10 +90,10 @@ HTML
         }
         my $l_name = $last->{'First name'} . ' ' . $last->{'Last name'};
         my $l_bio  = $last->{'Bio'};
+    }
         $contrib_str .= <<LAST;
 and <a href="index.shtml#contributors" onclick="return hs.htmlExpand(this, { headingText: '$l_name' })">$l_name</a><div class="highslide-maincontent">$l_bio</div>.
 LAST
-    }
 }
 
 # Let's output the string into an HTML file for inclusion on the page
