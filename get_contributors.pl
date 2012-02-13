@@ -25,7 +25,7 @@ use Modern::Perl '2012';
 use Carp;
 use Data::Dumper;
 use HTTP::Tiny;
-use IO::Socket::SSL; # Needed for https URLs
+use IO::Socket::SSL;    # Needed for https URLs
 use Text::CSV_XS;
 use IO::All;
 
@@ -40,7 +40,6 @@ my $file;
 if ( $response->{'success'} ) {
     $data = $response->{'content'};
 }
-
 
 # If we got it, let's save it as a .csv
 # Text::CSV seems to prefer files over strings
@@ -88,10 +87,10 @@ HTML
         else {
             $contrib_str .= "$name, ";
         }
-        my $l_name = $last->{'First name'} . ' ' . $last->{'Last name'};
-        my $l_bio  = $last->{'Bio'};
     }
-        $contrib_str .= <<LAST;
+    my $l_name = $last->{'First name'} . ' ' . $last->{'Last name'};
+    my $l_bio  = $last->{'Bio'};
+    $contrib_str .= <<LAST;
 and <a href="index.shtml#contributors" onclick="return hs.htmlExpand(this, { headingText: '$l_name' })">$l_name</a><div class="highslide-maincontent">$l_bio</div>.
 LAST
 }
