@@ -14,6 +14,7 @@
             <!-- OpenGraph properties -->
             <meta name="description" content="Beautiful Trouble is a book and web toolbox that puts the accumulated wisdom of decades of creative protest into the hands of the next generation of change-makers." />
             <meta property="og:title" content="Beautiful Trouble: A toolbox for revolution" />
+            <meta property="og:description" content="Beautiful Trouble is a book and web toolbox that puts the accumulated wisdom of decades of creative protest into the hands of the next generation of change-makers." />
             <meta property="og:type" content="book" />
             <meta property="og:url" content="http://beautifultrouble.org" />
             <meta property="og:image" content="http://beautifultrouble.org/ui/img/h/Beautiful_Trouble_Book_Cover.png" />
