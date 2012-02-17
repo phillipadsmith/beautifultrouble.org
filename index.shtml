@@ -11,6 +11,26 @@
             <meta charset="utf-8"/>
             <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
             <title>Beautiful Trouble: A toolbox for revolution | beautifultrouble.org</title>
+            <!-- OpenGraph properties -->
+            <meta name="description" content="Beautiful Trouble is a book and web toolbox that puts the accumulated wisdom of decades of creative protest into the hands of the next generation of change-makers." />
+            <meta property="og:title" content="Beautiful Trouble: A toolbox for revolution" />
+            <meta property="og:type" content="book" />
+            <meta property="og:url" content="http://beautifultrouble.org" />
+            <meta property="og:image" content="http://beautifultrouble.org/ui/img/h/Beautiful_Trouble_Book_Cover.png" />
+            <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+            <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+            <meta name="DC.title" lang="English" content="Beautiful Trouble: A toolbox for revolution" />
+            <meta name="DC.creator" content="Andrew Boyd" />
+            <meta name="DC.subject" lang="English" content="activism, creative activism, politics, art, protest, social change, capitalism, anarchism, demonstration, direct action, civil disobedience" />
+            <meta name="DC.description" lang="English" content="Beautiful Trouble is a book and web toolbox that puts the accumulated wisdom of decades of creative protest into the hands of the next generation of change-makers." />
+            <meta name="DC.publisher" content="OR Books" />
+            <meta name="DC.contributor" content="Rae Abileah, Ryan Acuff, Celia Alario, Phil Aroneanu, Peter Barnes, Jesse Barron, Andy Bichlbaum, Nadine Bloch, Kathryn Blume, L.M. Bogad, Josh Bolotsky, Mike Bonanno, Andrew Boyd, Kevin Buckland, Margaret Campbell, Doyle Canning, Coalition of Immokalee Workers, Samantha Corbin, Yutaka Dirks, Steve Duncombe, Mark Engler, Simon Enoch, Jodie Evans, John Ewing, Brian Fairbanks, Bryan Farrell, Janice Fine, Lisa Fithian, Cristian Fleming, Elisabeth Ginsberg, Stan Goff, Arun Gupta, Silas Harrebye, Judith Helfand, Daniel Hunter, Sarah Jaffe, John Jordan, Dmytri Kleiner, Sally Kohn, Steve Lambert, Anna Lee, Stephen Lerner, Zack Malitz, Nancy Mancias, Duncan Meisel, Matt Meyer, Dave Oswald Mitchell, Tracey Mitchell, George Monbiot, Brad Newsham, Gaby Pacheco, Mark Read, Patrick Reinsborough, Simon Roel, Joshua Kahn Russell, Leonidas Martin Saura, Levana Saxon, Nathan Schneider, Maxine Schoefer-Wulf, Kristen Ess Schurr, John Sellers, Rajni Shah, Brooke Singer, Matt Skomarovsky, Andrew Slack, Phillip Smith, Jonathan Matthew Smucker, Starhawk, Eric Stoner, Jeremy Varon, Virginia Vitzthum, Harsha Walia, Jefferey Webber" />
+            <meta name="DC.date" content="April 2012" />
+            <meta name="DC.type" scheme="DCTERMS.DCMIType" content="Text" />
+            <meta name="DC.format" content="text/html" />
+            <meta name="DC.format" content="80192 bytes" />
+            <meta name="DC.identifier" scheme="DCTERMS.URI" content="http://beautifultrouble.org" />
+            <meta name="DC.language" scheme="DCTERMS.URI" content="English" />
 
             <!-- Please don't add "maximum-scale=1" here. It's bad for accessibility. -->
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -18,9 +38,7 @@
             <!-- Feel free to split the CSS into separate files, if you like. -->
             <link rel="stylesheet" href="stylesheets/GGS.css"/>
 
-            <!-- Here's Golden Gridlet, the grid overlay script. -->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-            <!--<script src="javascripts/GGS.js"></script>-->
             <script src="javascripts/jquery.slideto.v1.1.js"></script>
             <script src="javascripts/highslide-full.packed.js"></script>
             <script src="javascripts/responsiveslides.min.js"></script>
