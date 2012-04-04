@@ -352,5 +352,6 @@
                             <a href="#" onclick="hs.close(this)">
                                 Close</a>.
                         </div>
+                <!-- Test for GIT, will Delete this -->
                     </body>
                 </html>
