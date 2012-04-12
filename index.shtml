@@ -111,7 +111,7 @@
                     <li><a href="#team">Team</a></li>
                     <li><a href="#partners">Partners</a></li>
                     <li><a href="#faqs">FAQs</a></li>
-                    <li><a href="#subscribe">Contact</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
                 </nav>
 
@@ -139,7 +139,7 @@
                 </div>
                 </section>
                 <section id="project-summary">
-                <p><i>Beautiful Trouble</i> is a book and web toolbox that puts the accumulated wisdom of decades of creative protest into the hands of the next generation of change-makers. <a href="#faqs">Read more...</a></p>
+                <p><i>Beautiful Trouble</i> is a book and web toolbox that puts the accumulated wisdom of decades of creative protest into the hands of the next generation of change-makers.</p>
                 </section>
                 <br clear="all" />
                 <section id="callstoaction">
@@ -159,7 +159,7 @@
                 </section>
                 <a id="subscribe"></a>
                 <section class="wrapper subscribe">
-                <h3>Stay in touch</h3>
+                <a id="contact"></a><h3>Stay in touch</h3>
                 <div>
                     <p>
                     Give us your <label for="zykukt-zykukt">e-mail</label> and we'll give you surprises. 
@@ -191,7 +191,6 @@
                 <p>(We promise not to sell your info!)</p>
                 <br />
                 <p><i>Beautiful Trouble</i> is also on <img src="ui/img/twitter-16x16.png" />&nbsp;<a href="https://twitter.com/#!/BTroublemakers">Twitter</a> and <img src="ui/img/facebook-16x16.png" />&nbsp;<a href="https://www.facebook.com/pages/Beautiful-Trouble/278895055458281">Facebook</a>. 
-                <a id="contact"></a>
                 <br /><br />
                 <p>For media inquiries, please contact <a href="http://www.google.com/recaptcha/mailhide/d?k=01IPtjaO5W7z7lx-_y7K3Y0w==&c=G8C6FrpmgB4aofiC3RQmyxEyRWtlIW7h30R4k7_D--w=">Fern Diaz</a> at <a href="http://orbooks.com">OR Books</a>. To reach the Beautiful Trouble team, <a href="http://www.google.com/recaptcha/mailhide/d?k=01IPtjaO5W7z7lx-_y7K3Y0w==&c=t3g6xt_rxoT8KYrbXmWETqerOTXVb6Rj-YsjMe8Bgq0=">drop us a line</a>.</p>
                 </section>
@@ -244,6 +243,10 @@
                             </li>
                             <li class="odd"><img src="ui/img/maxine-schoefer-wolf.jpg" />Maxine Schoefer-Wulf, Fellow traveler
                             <br clear="all" />
+                            </li>
+                            <li class="odd"><img src="ui/img/josh-kahn-russell.jpg" />Joshua Kahn Russell, Wordhorse
+                            <br />
+                            <a href="https://twitter.com/#!/joshkahnrussell">@joshkahnrussell</a>
                             </li>
                         </ul>
                         </section>
@@ -349,5 +352,6 @@
                             <a href="#" onclick="hs.close(this)">
                                 Close</a>.
                         </div>
+                <!-- Test for GIT, will Delete this 2 -->
                     </body>
                 </html>
