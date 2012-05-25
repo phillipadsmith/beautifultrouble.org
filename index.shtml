@@ -312,7 +312,11 @@
                         </section>
                         <section id="supporters">
                         <h3>Supporters</h3>
-                        <p>We are hugely grateful for the essential financial support provided by the Lambent Foundation Fund of the Tides Foundation, as well as the Communications, Energy and Paperworks Union of Canada and the 247 individuals who donated via Kickstarter. A special thanks to our Kickstarter 'co-publishers,' Jeff Reifman, Yvonne Tasker-Rothenberg, Chris Simpson and Larry Sakin.
+                        <p>We are hugely grateful for the essential financial support provided by the Lambent Foundation Fund of the Tides Foundation, as well as the Canadian Labour Congress, Communications, Energy and Paperworks Union of Canada and the 247 individuals who donated via Kickstarter. A special thanks to our Kickstarter 'co-publishers,' Jeff Reifman, Yvonne Tasker-Rothenberg, Chris Simpson and Larry Sakin.</p>
+                        <br />
+                        <div id="supporters-logos">
+                            <img class="thumbnail" src="ui/img/lambent-logo.png" alt="Lambent Foundation Fund of the Tides Foundation" style="margin-right: 20px;" /><img class="thumbnail" src="ui/img/logo-CLC.png" alt="Canadian Labour Congress" style="margin-right: 20px;"  /><img class="thumbnail" src="ui/img/cep-logo.jpg" alt="Communications, Energy and Paperworks Union of Canada" style="margin-right: 20px;"  />
+                        </div>
                         </section>
                         <aside id="faqs">
                         <h3>Frequently Asked Questions</h3>
